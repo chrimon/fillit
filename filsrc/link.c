@@ -1,4 +1,16 @@
-#include "../includes/fillit.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   link.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chmondev <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/03/30 23:46:43 by chmondev          #+#    #+#             */
+/*   Updated: 2019/03/31 02:40:30 by chmondev         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "fillit.h"
 
 void	push(t_tetro *target)
 {
@@ -48,7 +60,7 @@ void	ft_double(char *str, t_tetro *link)
 		ctr += 5;
 		x++;
 	}
-	ft_coordiante(ptr, link);
+	ft_coordinate(ptr, link);
 	freemap(ptr, 4);
 }
 
